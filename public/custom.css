@@ -31,8 +31,10 @@ h3::before {
 /* source */
 h5 {
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
   font-weight: 400;
+  margin-right: 20px;
+  font-size: 0.5em;
 }
 
 blockquote {
@@ -48,6 +50,11 @@ blockquote::before {
   width: 2em;
   text-align: right;
   font-size: 90px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .remark-slide-content {
