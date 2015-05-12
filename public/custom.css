@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700|Lato:900|Merriweather:400,900,400italic);
+
+body {
+  font-family: 'Merriweather';
+  font-weight: 400;
+}
+
+h1, h2 {
+  font-family: 'Merriweather';
+  font-weight: 900;
+}
+
+/* header title */
+h4 {
+  font-family: 'Lato';
+  font-weight: 900;
+  color: #c3322f;
+  font-size: 1.5em;
+}
+
+/* author */
+h3 {
+  text-align: right;
+  margin-right: 50px;
+}
+
+h3::before {
+  content: '—';
+}
+
+/* source */
+h5 {
+  position: absolute;
+  bottom: 20px;
+  font-weight: 400;
+}
+
+blockquote {
+  font-size: 2em;
+  font-style: italic;
+}
+
+blockquote::before {
+  content: '“';
+  position: absolute;
+  display: inline-block;
+  margin-left: -2.1em;
+  width: 2em;
+  text-align: right;
+  font-size: 90px;
+}
+
+.remark-slide-content {
+  background-color: #caccc9;
+  position: relative;
+}
+
+.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
