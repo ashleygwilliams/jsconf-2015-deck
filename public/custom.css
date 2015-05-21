@@ -5,6 +5,15 @@ body {
   font-weight: 400;
 }
 
+.title > h1 {
+  color: white;
+  text-shadow: 3px 1px 0px #B8860B;
+}
+
+.highlight {
+  text-shadow: 3px 1px 0px #B8860B;
+}
+
 h1, h2 {
   font-family: 'Merriweather';
   font-weight: 900;
