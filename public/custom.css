@@ -71,4 +71,28 @@ img {
   position: relative;
 }
 
+.ruby-cow {
+  position: fixed;
+  top: 260px;
+  left: 100px;
+}
+
+.javascript-cow {
+  position: fixed;
+  top: 450px;
+  left: 100px;
+}
+
+.js-helmet {
+  position: fixed;
+  top: 150px;
+  left: 215px;
+}
+
+.ruby-helmet {
+  position: fixed;
+  top: 120px;
+  left: 460px;
+}
+
 .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
