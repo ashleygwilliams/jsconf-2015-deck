@@ -10,6 +10,26 @@ body {
   text-shadow: 3px 1px 0px #B8860B;
 }
 
+.tc39 {
+  position: absolute;
+  top: 120px;
+  left: 400px;
+}
+
+.abstraction {
+  display: block;
+  position: absolute;
+  top: 380px;
+  left: 357px;
+  font-weight: 900;
+}
+
+.no {
+  position: absolute;
+  top: -112px;
+  left: 0;
+}
+
 .highlight {
   text-shadow: 3px 1px 0px #B8860B;
 }
