@@ -95,4 +95,8 @@ img {
   left: 460px;
 }
 
+.strikeout{
+  text-decoration: linethrough;
+}
+
 .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
