@@ -10,6 +10,11 @@ body {
   text-shadow: 3px 1px 0px #B8860B;
 }
 
+.title > h3 {
+  color: #B8860B;
+  text-shadow: 2px 1px 0px #ffffff;
+}
+
 .tc39 {
   position: absolute;
   top: 120px;
